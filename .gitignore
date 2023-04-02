@@ -9,6 +9,7 @@ src/Identity/Sisreq.Identity.Infra/bin/
 src/Identity/Sisreq.Identity.Infra/obj/
 src/Identity/Sisreq.Identity.Domain/bin/
 src/Identity/Sisreq.Identity.Domain/obj/
+
 src/Courses/Sisreq.Courses.API/bin/
 src/Courses/Sisreq.Courses.API/obj/
 src/Courses/Sisreq.Courses.Application/bin/
@@ -17,6 +18,7 @@ src/Courses/Sisreq.Courses.Infra/bin/
 src/Courses/Sisreq.Courses.Infra/obj/
 src/Courses/Sisreq.Courses.Domain/bin/
 src/Courses/Sisreq.Courses.Domain/obj/
+
 src/Reservations/Sisreq.Reservations.API/bin/
 src/Reservations/Sisreq.Reservations.API/obj/
 src/Reservations/Sisreq.Reservations.Application/bin/
@@ -25,3 +27,6 @@ src/Reservations/Sisreq.Reservations.Infra/bin/
 src/Reservations/Sisreq.Reservations.Infra/obj/
 src/Reservations/Sisreq.Reservations.Domain/bin/
 src/Reservations/Sisreq.Reservations.Domain/obj/
+
+building blocks/Sisreq.Core/bin/
+building blocks/Sisreq.Core/obj/

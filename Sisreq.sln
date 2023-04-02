@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisreq.Reservations.Infra",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisreq.Reservations.Domain", "src\Reservations\Sisreq.Reservations.Domain\Sisreq.Reservations.Domain.csproj", "{F50D06D8-7F0C-4762-BE7B-59F82D6C73BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building blocks", "building blocks", "{A33C0C63-E1EE-4F18-B59C-B3F908C4B125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisreq.Core", "building blocks\Sisreq.Core\Sisreq.Core.csproj", "{372135E7-7F5A-4DE1-9DEB-F1DBFAC9BFAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +96,10 @@ Global
 		{F50D06D8-7F0C-4762-BE7B-59F82D6C73BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50D06D8-7F0C-4762-BE7B-59F82D6C73BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50D06D8-7F0C-4762-BE7B-59F82D6C73BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372135E7-7F5A-4DE1-9DEB-F1DBFAC9BFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372135E7-7F5A-4DE1-9DEB-F1DBFAC9BFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372135E7-7F5A-4DE1-9DEB-F1DBFAC9BFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372135E7-7F5A-4DE1-9DEB-F1DBFAC9BFAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2EA24893-025E-4B8B-BD08-DEAC05F59FFD} = {FDEE9B44-C54F-4C0F-83C7-BEAFED99EAF7}
@@ -109,5 +117,6 @@ Global
 		{74774163-B18C-49A5-B4C3-C769461AAAAF} = {A57A525D-5664-4CDF-AA5A-8D9D7D571639}
 		{347F2B80-C299-4A97-9612-DA9D13D50C4C} = {A57A525D-5664-4CDF-AA5A-8D9D7D571639}
 		{F50D06D8-7F0C-4762-BE7B-59F82D6C73BD} = {A57A525D-5664-4CDF-AA5A-8D9D7D571639}
+		{372135E7-7F5A-4DE1-9DEB-F1DBFAC9BFAF} = {A33C0C63-E1EE-4F18-B59C-B3F908C4B125}
 	EndGlobalSection
 EndGlobal
