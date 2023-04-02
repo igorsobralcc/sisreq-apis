@@ -6,7 +6,7 @@ public static class SwaggerConfig
     {
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Identity API", Version = "v1" });
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Identity API", Version = "v1" , Description = "API responsible for managing Sisreq's Users and Accesses"});
         });
 
         services.AddSwaggerGen();
