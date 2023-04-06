@@ -11,9 +11,7 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
-        services.ConfigureServices();
-        services.AddEndpointsApiExplorer();
-        services.AddDependencyInjection();
+        services.ConfigureApi(_configuration);
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
